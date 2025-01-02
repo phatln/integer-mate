@@ -8,7 +8,10 @@ aptos_std = "0x1"
 aptos_framework = "0x1"
 integer_mate = "_"
 
+[dev-addresses]
+integer_mate = "0xc4fb1d925938d1499dfd1ae4e041d0377a9a761f6da0a3c18f12a8aad7810e6d"
+
 [dependencies.MoveStdlib]
-git = "https://github.com/aptos-labs/aptos-core.git"
-subdir = "aptos-move/framework/move-stdlib"
-rev = "40d169ad5ace6298a84b0f401b4b5e7ccce701fc"
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "move-stdlib"
